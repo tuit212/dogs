@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/body-bg.png");
+    background-repeat: no-repeat;
+    background-size: 525px 693px;
+    background-position-x: right;
+}
+
+img{
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1030px){
+    body{
+        background-image: none;
+    }
+}
+
+// :root{
+    
+// }
+
+// .active{
+    
+// }

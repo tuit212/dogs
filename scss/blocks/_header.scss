@@ -1,0 +1,71 @@
+@import "../general";
+@import "./mixses";
+.site-header{
+    width: 100%;
+    padding: 31px 0;
+}
+.header{
+    @include center (space-between);
+}
+.header__logo{
+    width: 10%;
+    text-decoration: none;
+    margin-left: 5px;
+    @include center (none);
+    @include text (500 , 26px , 22px);
+    color: #000000;
+}
+.header__nav{
+    width: 60%;
+    @include center (space-between);
+}
+.header__list{
+    @include center (none);
+    gap: 55px;
+    margin: 0;
+}
+.header__item-link{
+    text-decoration: none;
+    @include text (400 , 16px , 19px);
+    color: #170C04;
+}
+
+.header__contact{
+    gap: 40px;
+    @include center (none);
+}
+.header__contact-link{
+    display: inline-block;
+}
+.header__contact-burger{
+    display: none;
+}
+.header__contact-sun{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header__contact-link-img-night{
+    display: none;
+}
+
+
+@media only screen and (max-width:1030px){
+    .header__nav{
+        justify-content: flex-end;
+    }
+    .header__list{
+        display: none;
+    }
+    .header__contact-burger{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .header__contact{
+        gap: 20px;
+    }
+}
