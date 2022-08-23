@@ -636,6 +636,16 @@ template {
   clip: rect(0 0 0 0);
 }
 
+:root {
+  --bg:#000;
+  --link-color:#170C04;
+}
+
+.active {
+  --bg:#fff;
+  --link-color:#a00;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -731,8 +741,8 @@ img {
   cursor: pointer;
 }
 
-.header__contact-link-img-night {
-  display: none;
+.night {
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 1030px) {

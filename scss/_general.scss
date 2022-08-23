@@ -1,3 +1,12 @@
+:root{
+    --bg:#000;
+    --link-color:#170C04;
+}
+
+.active{
+    --bg:#fff;
+    --link-color:#a00;
+}
 *{
     margin: 0;
     padding: 0;
@@ -22,11 +31,3 @@ img{
         background-image: none;
     }
 }
-
-// :root{
-    
-// }
-
-// .active{
-    
-// }

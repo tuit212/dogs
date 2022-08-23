@@ -6,13 +6,4 @@ elBtn.addEventListener("click", function() {
 })
 
 
-var elsun = document.querySelector(".sun")
-var elnight = document.querySelector(".night")
-
-
-
-elsun.addEventListener("click" , function(){
-    elnight.classList.toggle("night")
-}
-)
 
